@@ -24,34 +24,36 @@ java -version
 Clone este repositório para o seu sistema local usando o seguinte comando:
 
 ```
-git clone 
+git clone https://github.com/devlooppear/SystemManagerBank.git
 ```
-Substitua seu-usuario pelo seu nome de usuário GitHub, se aplicável.
 
-Compilar o Código
+## Compilar o Código
 Navegue até o diretório do projeto:
 
-bash
-Copy code
+```
 cd gerenciaBanco
+```
 Compile o código-fonte usando o Maven (certifique-se de que o Maven esteja instalado):
 
-bash
-Copy code
+```
 mvn compile
-Executar o Programa
+```
+## Executar o Programa
+
 Após a compilação bem-sucedida, você pode executar o programa de gerenciamento bancário com o seguinte comando:
 
-bash
-Copy code
+```
 mvn exec:java -Dexec.mainClass="com.mycompany.gerenciabanco.GerenciaBanco"
+```
+
 Isso iniciará o programa e você verá um menu interativo no terminal.
 
-Opções do Menu
+## Opções do Menu
 O menu interativo oferece as seguintes opções:
 
-Consultar Saldo
-Realizar Depósito
-Realizar Retirada
-Encerrar
+- Consultar Saldo
+- Realizar Depósito
+- Realizar Retirada
+- Encerrar
+
 Escolha uma das opções digitando o número correspondente e siga as instruções.
